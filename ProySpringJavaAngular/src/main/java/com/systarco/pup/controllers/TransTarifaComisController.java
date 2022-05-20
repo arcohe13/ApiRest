@@ -83,6 +83,7 @@ public class TransTarifaComisController {
 	// ejemplo1
 	// ejemplo2
 	// ejemplo3
+	// ejemplo4
 	
 	@DeleteMapping("/{id}")
 	public void delete(@PathVariable("id") Long id) {
