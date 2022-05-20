@@ -80,6 +80,7 @@ public class TransTarifaComisController {
 		 return this.codtransservice.editar(codtrans);
 		
 	}
+	// ejemplo1
 	
 	@DeleteMapping("/{id}")
 	public void delete(@PathVariable("id") Long id) {
